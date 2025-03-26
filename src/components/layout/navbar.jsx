@@ -30,12 +30,13 @@ const Navbar = () => {
 
           {/* Services Dropdown */}
           <li className="relative">
+            <Link href="/services">
             <button
               className={`flex items-center ${pathname.includes("/services") ? "text-green-600 font-semibold" : "hover:text-gray-500"}`}
               onClick={() => setShowServices(!ShowServices)}
             >
               Services <ChevronDown size={18} className={`ml-1 transition-transform ${ShowServices ? "rotate-180" : ""}`} />
-            </button>
+            </button></Link>
 
             {ShowServices && (
               <ul className="absolute left-0 mt-2 w-56 bg-white shadow-md rounded-lg py-2 z-50 border border-gray-200">
@@ -67,9 +68,12 @@ const Navbar = () => {
 
         {/* Book a Free Visit Button */}
         <div className="hidden md:block">
-          <button className="w-[250px] bg-orange-400 text-white py-2 px-4 rounded-full font-medium hover:bg-orange-500">
+        <Link
+            href="https://wa.me/9167055515"
+            target="_blank"
+            rel="noopener noreferrer"><button className="w-[250px] bg-orange-400 text-white py-2 px-4 rounded-full font-medium hover:bg-orange-500">
             Book a free visit
-          </button>
+          </button></Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -91,8 +95,8 @@ const Navbar = () => {
 
             {/* Services Dropdown */}
             <li className="flex items-center cursor-pointer" onClick={() => setShowServices(!ShowServices)}>
-              <span className={pathname.includes("/services") ? "text-green-600 font-semibold" : "hover:text-gray-500"}>Services</span>
-              <ChevronDown size={18} className={`ml-1 transition-transform ${ShowServices ? "rotate-180" : ""}`} />
+              <Link href="/services"><span className={pathname.includes("/services") ? "text-green-600 font-semibold" : "hover:text-gray-500"}>Services</span>
+              </Link><ChevronDown size={18} className={`ml-1 transition-transform ${ShowServices ? "rotate-180" : ""}`} />
             </li>
 
             {ShowServices && (
@@ -123,9 +127,12 @@ const Navbar = () => {
 
             {/* Book a Free Visit Button */}
             <li>
-              <button className="w-full bg-orange-400 text-white py-2 rounded-lg font-medium hover:bg-orange-500">
-                Book a free visit
-              </button>
+            <Link
+            href="https://wa.me/9167055515"
+            target="_blank"
+            rel="noopener noreferrer"><button className="w-full bg-orange-400 text-white py-2 rounded-lg font-medium hover:bg-orange-500">
+            Book a free visit
+          </button></Link>
             </li>
           </ul>
         </div>

@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaPinterest, FaYoutube, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaFacebook, FaLinkedin, FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
 
           {/* Services Section */}
           <div className="text-left w-74 mb-5 md:mt-3">
-            <h3 className="text-lg font-semibold mb-2">Services</h3>
+            <Link href="/services"><h3 className="text-lg font-semibold mb-2">Services</h3></Link>
             <ul className="space-y-2">
               <li><Link className="text-sm font-extralight" href="/internal">Interior painting</Link></li>
               <li><Link className="text-sm font-extralight" href="/external">Exterior painting</Link></li>
@@ -31,20 +31,22 @@ const Footer = () => {
 
           {/* Contact Us Section */}
           <div className="text-left md:space-x-5 md:items-right md:mt-3 mb-5 md:pl-12">
-            <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
+          <Link href="/contact"><h3 className="text-lg font-semibold mb-3">Contact Us</h3></Link>
             <ul className="text-left space-y-2">
               <li className="text-left flex items-center space-x-2">
                 <FaPhoneAlt className="text-sm mb-1" />
-                <span className="text-sm mb-1 font-extralight">+9167055515</span>
+                <span className="text-sm mb-1 font-extralight">+91 9167055515</span>
+              </li>
+              <li className="flex text-left items-center space-x-2">
+                <FaEnvelope className="text-lg mb-1" />
+                <a href="mailto:dhanvantripaints@gmail.com" className="hover:text-gray-300">
+    dhanvantripaints@gmail.com
+  </a>
               </li>
               <li className="flex items-center space-x-2">
-                <FaEnvelope className="text-sm mb-1" />
-                <span className="text-sm mb-1 font-extralight">dhanvantripaints@gmail.com</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <FaMapMarkerAlt className="text-[17px] flex-shrink-0 mb-1" />
-                <span className="text-[13px] font-extralight w-64 md:w-[450px] leading-6 ">SS Classes Nr Ganesh Mandir,
-                  church road, Manpada Thane West 400607
+                <FaMapMarkerAlt className="text-[17px] flex-shrink-0 mb-1 " />
+                <span className="text-[13px] font-extralight w-64 md:w-[450px] leading-6">
+                  SS Classes Nr Ganesh Mandir, church road, Manpada Thane West 400607
                 </span>
               </li>
             </ul>
@@ -54,18 +56,17 @@ const Footer = () => {
           <div className="flex flex-col md:items-end md:text-right">
             <h3 className="text-lg max-w-5xl font-semibold mb-3">Social Media</h3>
             <div className="flex space-x-3 text-lg md:px-1">
-              <a href="#" className="hover:text-gray-300">
+              <a href="https://www.instagram.com/dhanvantri.paints?igsh=MXg4aHVvems3aDRqeg==" className="hover:text-gray-300">
                 <FaInstagram />
               </a>
-              <a href="#" className="hover:text-gray-300">
-                <FaPinterest />
+              <a href="https://www.facebook.com/profile.php?id=61574754440347" className="hover:text-gray-300">
+                <FaFacebook />
               </a>
-              <a href="#" className="hover:text-gray-300">
-                <FaYoutube />
+              <a href="https://www.linkedin.com/in/dhanvantri-paints-855190358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="hover:text-gray-300">
+                <FaLinkedin />
               </a>
-              <a href="#" className="hover:text-gray-300">
-                <FaXTwitter />
-
+              <a href="https://wa.me/9167055515" className="hover:text-gray-300">
+                <FaWhatsapp />
               </a>
             </div>
           </div>
@@ -82,4 +83,5 @@ const Footer = () => {
     </footer>
   );
 };
+
 export default Footer;

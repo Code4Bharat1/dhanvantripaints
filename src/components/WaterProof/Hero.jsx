@@ -7,7 +7,7 @@ export default function Hero() {
      
       {/*Image to be displayed on desktop/webpage */}
       <Image
-        src="/images/painter2.jpg"
+        src="/images/painter3.jpg"
         alt="Paint image"
         width={600}
         height={500}
@@ -16,7 +16,7 @@ export default function Hero() {
       />
        {/*Image to be displayed on mobile */}
        <Image
-        src="/images/mobile_image.png"
+        src="/images/mobile_image1.png"
         alt="Paint image on mobile phone"
         width={800}  
         height={600}

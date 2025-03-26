@@ -19,7 +19,11 @@ const GetSpecial = () => {
           Get <span className="text-orange-400">Special Offer</span> For Today <br />
           With Dhanvantri Paints
         </h2>
-        <Link href="#">
+        <Link
+            href="https://wa.me/9167055515"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
           <button className="mt-4 text-black text-sm sm:text-base bg-white px-4 sm:px-6 py-2 rounded-lg font-bold">
             Let's Try Dhanvantri
           </button>

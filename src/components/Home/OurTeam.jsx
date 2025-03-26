@@ -8,7 +8,7 @@ const OurTeam = () => {
                     alt="/"
                     width={40}
                     height={60}
-                    className='hidden sm:inline-flex absolute top-1020 left-12 md:left-18 lg:left-130'
+                    className='hidden sm:inline-flex absolute top-985 left-12 md:left-18 lg:left-130'
                 />
                 <Image src="/Home/logo5.png"
                     alt="/"
@@ -20,23 +20,23 @@ const OurTeam = () => {
                     alt="/"
                     width={40}
                     height={50}
-                    className='hidden sm:inline-flex absolute top-1055 left-12 md:left-18 lg:left-35'
+                    className='hidden sm:inline-flex absolute top-1030 left-12 md:left-18 lg:left-35'
                 />
                 <Image src="/Home/logo11.png"
                     alt="/"
                     width={50}
                     height={50}
-                    className='hidden sm:inline-flex absolute z-[1] top-1055 right-12 md:right-18 lg:right-22'
+                    className='hidden sm:inline-flex absolute z-[1] top-1020 right-12 md:right-18 lg:right-22'
                 />
                 <div className="flex  w-1/2 lg:w-full">
                     <div>
                         <Image className="h-[180px] lg:w-[250px] lg:h-[350px]" src="/Home/worker3.png" alt="" width={1000} height={1000} />
                     </div>
-                    <div className=" h-[180px] md:w-1/2 bg-[#524BAD]  flex flex-col justify-center items-center md:h-auto">
-                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">&nbsp;&nbsp;RAJESH</h1>
-                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">&nbsp;&nbsp;KUMAR</h1>
+                    <div className=" h-[180px] md:w-1/2 bg-[#524BAD] flex flex-col justify-center items-center md:h-auto">
+                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">RAJESH</h1>
+                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">KUMAR</h1>
                         <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">SINGH</h1>
-                        <p className="text-white text-[12px] md:text-[16px] md:mt-5 lg:text-xs text-left lg:p-0 p-5 md:p-5">CEO of Dhanvantri Paints</p>
+                        <p className="text-white text-[8px] md:text-[16px] md:mt-5 lg:text-xs text-left lg:p-0 p-5 md:p-5">CEO of Dhanvantri Paints</p>
                     </div>
 
                 </div>
@@ -57,8 +57,8 @@ const OurTeam = () => {
                         <Image className="w-[160px] md:w-[300px] h-[180px] lg:h-[320px]" src="/Home/worker2.png" alt="" width={1000} height={1000} />
                     </div>
                     <div className=" w-[150px] md:w-1/2  bg-[#FF9247] flex flex-col justify-center z-[-1] items-center h-[180px] lg:h-[320px]">
-                        <h1 className="text-white text-md md:text-2xl">AHMED</h1>
-                        <p className="text-white text-[9px] md:text-[13px] ml-4">Manager of Dhannvanti Painting</p>
+                        <h1 className="text-white text-lg md:text-2xl">AHMED</h1>
+                        <p className="text-white text-[8px] md:text-[13px] ml-4 md:ml-4">Manager of Dhannvanti Painting</p>
                     </div>
                 </div>
             </div>

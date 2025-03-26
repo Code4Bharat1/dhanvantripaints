@@ -1,4 +1,6 @@
+'use client';
 import Image from 'next/image';
+import { FaInstagram, FaFacebook, FaLinkedin, FaWhatsapp, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const ContactForm = () => {
   return (
@@ -6,14 +8,15 @@ const ContactForm = () => {
       <div className='flex flex-col md:flex-row gap-10 lg:border lg:border-gray-200 rounded-[10px] w-full max-w-[1100px] h-auto md:h-[500px] p-5 md:p-3'>
         {/* Left Side - Contact Info */}
         <div className='relative flex flex-col gap-10 rounded-[10px] text-white bg-[#524BAD] h-[400px] lg:h-full p-6 lg:p-10 w-full md:w-[350px]'>
-          <div className='absolute flex gap-4 bottom-[20px] left-[20px]'>
-            <Image className='w-7' src="/Contact/Instagram.png" alt="Instagram" width={100} height={100} />
-            <Image className='w-7' src="/Contact/Facebook.png" alt="Facebook" width={100} height={100} />
-            <Image className='w-7' src="/Contact/Linkedin.png" alt="LinkedIn" width={100} height={100} />
+          <div className='absolute flex gap-4 bottom-[20px] left-[20px] text-xl'>
+            <a href='#' className='hover:text-gray-300'><FaInstagram /></a>
+            <a href='#' className='hover:text-gray-300'><FaFacebook /></a>
+            <a href='#' className='hover:text-gray-300'><FaLinkedin /></a>
+            <a href='#' className='hover:text-gray-300'><FaWhatsapp /></a>
           </div>
 
-          <div className='absolute w-full h-full left-0 top-0  border-black-500 overflow-hidden'>
-            <Image className='absolute bottom-[-30px] right-[-40px] opacity-45' src="/Contact/circlegroup.png" alt='circle-group' width={150} height={100} />
+          <div className='absolute w-full h-full left-0 top-0 border-black-500 overflow-hidden'>
+            <Image className='absolute bottom-[-30px] right-[-40px] opacity-45' src='/Contact/circlegroup.png' alt='circle-group' width={150} height={100} />
           </div>
 
           <div>
@@ -23,17 +26,17 @@ const ContactForm = () => {
 
           <div>
             <ul className='flex flex-col gap-6'>
-              <li className='flex gap-3'>
-                <Image className='w-4 h-5 lg:w-7' src="/Contact/Vector.png" alt='Phone' width={100} height={100} />
-                <p>+971 533796554</p>
+              <li className='flex gap-3 items-center'>
+                <FaPhoneAlt className='text-lg' />
+                <p>+91 9167055515</p>
               </li>
-              <li className='flex gap-3'>
-                <Image className='w-4 h-5 lg:w-7' src="/Contact/Email.png" alt='Email' width={100} height={100} />
-                <p>seerah.one@gmail.com</p>
+              <li className='flex gap-3 items-center'>
+                <FaEnvelope className='text-lg' />
+                <p>dhanvantripaints@gmail.com</p>
               </li>
-              <li className='flex gap-3'>
-                <Image className='w-5 h-6 lg:w-7' src="/Contact/Location.png" alt='Location' width={100} height={100} />
-                <p>Location anjhncsjhnxnhchbxhnb nbhjcsudfh</p>
+              <li className='flex gap-3 items-center'>
+                <FaMapMarkerAlt className='text-lg' />
+                <p>Location SS Classes Nr Ganesh Mandir, Church Road, Manpada Thane West 40060</p>
               </li>
             </ul>
           </div>
@@ -41,8 +44,8 @@ const ContactForm = () => {
 
         {/* Right Side - Form */}
         <div className='relative flex flex-col w-full md:w-[700px]'>
-          <div className="absolute bottom-0 right-20 hidden md:block">
-            <Image src="/Contact/plane.png" alt='Plane' width={300} height={450} />
+          <div className='absolute bottom-0 right-20 hidden md:block'>
+            <Image src='/Contact/plane.png' alt='Plane' width={300} height={450} />
           </div>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 p-5'>
@@ -81,6 +84,6 @@ const ContactForm = () => {
       </div>
     </div>
   );
-}
+};
 
 export default ContactForm;

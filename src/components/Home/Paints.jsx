@@ -41,7 +41,7 @@ export default function Paints() {
                                         Popular Shade
                                     </div>
                                 </div>
-                                <h1 className="text-white font-bold mt-2 md:mt-1 text-left text-xs md:text-base lg:text-lg">
+                                <h1 className="text-white font-bold mt-2 md:mt-1 text-left text-xs md:text-base lg:text-md">
                                     <span className="inline lg:block">Interior Paints</span>
                                 </h1>
                                 <p className="text-white font-bold text-left text-[8px] md:text-[8px] lg:text-[10px] mt-2 lg:mt-1">

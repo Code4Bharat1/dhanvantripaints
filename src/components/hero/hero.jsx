@@ -11,7 +11,7 @@ export default function Hero() {
         alt="Paint image"
         width={600}
         height={500}
-        className="hidden md:block w-full h-[500px] object-cover"
+        className="hidden md:block w-full h-[600px] object-cover"
        
       />
        {/*Image to be displayed on mobile */}

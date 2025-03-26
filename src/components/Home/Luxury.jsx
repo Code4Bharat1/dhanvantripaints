@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
+import Link from "next/link";
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -25,9 +25,12 @@ const Carousel = () => {
                 <p className="text-[12px] md:text-[20px] leading-normal md:leading-relaxed text-justify">
                     Explore a versatile range of interior paint for your home!
                 </p>
-                <button className="w-25 md:w-40 h-10 text-[13px] md:text-[18px] md:h-12 mt-2 md:mt-6 mb-10 md:mb-0 text-white bg-orange-400 hover:bg-orange-600 rounded-lg shadow-lg">
-                    See Details
-                </button>
+                <Link
+            href="https://wa.me/9167055515"
+            target="_blank"
+            rel="noopener noreferrer"><button className="w-25 md:w-40 h-10 text-[13px] md:text-[18px] md:h-12 mt-2 md:mt-6 mb-10 md:mb-0 text-white bg-orange-400 hover:bg-orange-600 rounded-lg shadow-lg">
+            See Details
+        </button></Link>
             </div>
             <Image src="/Home/logo1.png"
                 alt="/"

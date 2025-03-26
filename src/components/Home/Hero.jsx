@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Link from 'next/link';
 export default function HomeMain() {
     return (
 
@@ -31,9 +31,13 @@ export default function HomeMain() {
                     <p className="text-sm sm:text-lg mt-2 italic text-white opacity-80">
                         Book a free consultation and bring your dream design to life.
                     </p>
-                    <button className="mt-4 sm:mt-6 px-4 lg:px-10 sm:px-6 py-2 sm:py-3 bg-[#FF9247] rounded-xl lg:rounded-2xl shadow-lg text-white text-sm sm:text-md">
-                        Get Quote
-                    </button>
+                    <Link
+            href="https://wa.me/9167055515"
+            target="_blank"
+            rel="noopener noreferrer"><button className="mt-4 sm:mt-6 px-4 lg:px-10 sm:px-6 py-2 sm:py-3 bg-[#FF9247] rounded-xl lg:rounded-2xl shadow-lg text-white text-sm sm:text-md">
+            Get Quote
+            </button>
+            </Link>
                 </div>
             </div>
             {/* Background Image */}
@@ -53,8 +57,8 @@ export default function HomeMain() {
             {/* Content Inside Trapezium */}
             <div className="absolute left-[5%] top-1/4 w-[90%] flex flex-col gap-10 md:w-full max-w-lg p-4 text-white z-10">
                 <h2 className="text-2xl sm:text-2xl md:text-4xl font-bold text-left leading-12 lg:leading-14 md:leading-12">
-                    <span className="hidden md:block">"Transform Your Home with &nbsp;&nbsp;Colors That Inspire!"</span>
-                    <span className="inline md:hidden">"Transform Your Home &nbsp;&nbsp;with Colors That Inspire!"</span>
+                    <span className="hidden md:block">Transform Your Home with Colors That Inspire!</span>
+                    <span className="inline md:hidden">Transform Your Home with Colors That Inspire!</span>
 
 
                 </h2>
@@ -63,9 +67,14 @@ export default function HomeMain() {
                     <li>⭐ Internal Painting</li>
                     <li>⭐ External Painting</li>
                 </ul>
-                <button className="mt-4 w-fit lg:w-fit px-6 lg:px-12 py-2 sm:px-6 sm:py-3 bg-[#FF9247] rounded-lg lg:rounded-2xl shadow-lg text-white text-sm sm:text-base">
+                <Link
+            href="https://wa.me/9167055515"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+<button className="mt-4 w-fit lg:w-fit px-6 lg:px-12 py-2 sm:px-6 sm:py-3 bg-[#FF9247] rounded-lg lg:rounded-2xl shadow-lg text-white text-sm sm:text-base">
                     Get Started
-                </button>
+                </button></Link>
             </div>
 
 
