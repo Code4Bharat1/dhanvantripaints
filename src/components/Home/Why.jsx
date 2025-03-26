@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const Why = () => {
+const WhyChooseUs = () => {
     return (
         <div className="max-w-[1200px] mx-auto my-[100px] h-fit px-4">
             {/* Heading */}
@@ -56,4 +56,4 @@ const Why = () => {
     )
 }
 
-export default Why
+export default WhyChooseUs
