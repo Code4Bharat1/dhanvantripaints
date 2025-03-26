@@ -8,7 +8,7 @@ import HomeGallery from "@/components/Home/HomeGallery";
 import Luxury from "@/components/Home/Luxury";
 import OurTeam from "@/components/Home/OurTeam";
 import Paints from "@/components/Home/Paints";
-import Why from "@/components/Home/Why";
+import WhyChooseUs from "@/components/Home/Why";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 
@@ -19,7 +19,7 @@ const page = () => {
         <Hero/>
         <Logo/>
         <Luxury/>
-        <Why/>
+        <WhyChooseUs/>
         <Paints/>
         <OurTeam/>
         <GetSpecial/>
