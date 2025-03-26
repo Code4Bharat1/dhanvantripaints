@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const ExceptionalQuality = () => {
+const Why = () => {
     return (
         <div className="max-w-[1200px] mx-auto my-[100px] h-fit px-4">
             {/* Heading */}
@@ -56,4 +56,4 @@ const ExceptionalQuality = () => {
     )
 }
 
-export default ExceptionalQuality
+export default Why
