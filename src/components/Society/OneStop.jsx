@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function OrderForm() {
   return (
-    <div className="relative flex justify-center items-center my-10 bg-transparent px-4">
+    <div className="relative flex justify-center items-center md:mt-5 bg-transparent px-4">
 
       <div>
         <Image className="absolute hidden lg:block left-[5%] bottom-[30%] w-[30px]" src="/Society/Circle.png" alt="" width={100} height={100} />

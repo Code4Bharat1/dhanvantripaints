@@ -2,10 +2,10 @@
 
 import Carousel from "@/components/About/Carousel";
 import GetSpecial from "@/components/About/GetSpecial";
+import Hero from "@/components/hero/hero";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import RepairPainting from "@/components/Repairing/RepairPainting";
-import Hero from "@/components/Society/Hero";
 import Services from "@/components/Society/Services";
 import OneStop from "@/components/WaterProof/OneStop";
 

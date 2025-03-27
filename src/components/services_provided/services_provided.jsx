@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Services_provided() {
   return (
-    <div className="mb-20 px-4 md:mt-15 mt-6">
+    <div className="md:mb-15 px-4 md:mt-15 mt-6">
       {/* Title */}
       <h1 className="text-2xl text-black md:text-4xl md:text-bold text-center font-semibold">Services Provided</h1>
 

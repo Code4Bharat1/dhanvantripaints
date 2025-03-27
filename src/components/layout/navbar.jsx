@@ -1,5 +1,5 @@
 "use client";
-
+import React from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -39,17 +39,20 @@ const Navbar = () => {
             </button></Link>
 
             {ShowServices && (
-              <ul className="absolute left-0 mt-2 w-56 bg-white shadow-md rounded-lg py-2 z-50 border border-gray-200">
+              <ul className="absolute left-0 mt-2 w-72 bg-white shadow-md rounded-lg py-2 z-50 border border-gray-200">
                 {[
                   { href: "/internal", text: "Internal Painting" },
                   { href: "/external", text: "External Painting" },
                   { href: "/waterproof", text: "Waterproof Painting" },
                   { href: "/repairpainting", text: "Repair Painting" },
                   { href: "/society", text: "Society & Commercial Painting" }
-                ].map(({ href, text }) => (
-                  <li key={href} className="text-[15px] text-black px-4 py-2 hover:bg-gray-100">
+                ].map(({ href, text },index,array) => (
+                  <React.Fragment key={href}>
+                  <li className="text-[15px] text-black px-4 py-2 text-center hover:bg-gray-100">
                     <Link href={href}>{text}</Link>
                   </li>
+                  {index !== array.length - 1 && <hr className="border-gray-900 w-60 mx-auto" />}
+                </React.Fragment>
                 ))}
               </ul>
             )}
