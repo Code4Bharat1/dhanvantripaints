@@ -14,11 +14,11 @@ export default function Effortless() {
             <div className="flex flex-col md:flex-row items-center w-full md:w-fit md:mx-20  pr-4 pl-0 mt-6 mb-6 md:mt-0 md:mb-0">
                 <div className="w-[300px] md:w-1/2 mr-4 md:mr-0 ml-2 md:ml-auto">
                     <Image
-                        src="/Services/service1.png"
+                        src="/Services/service1.jpg"
                         alt="Internal Painting"
-                        height={600}
-                        width={700}
-                        className="relative w-full h-auto object-cover"
+                        height={500}
+                        width={800}
+                        className="relative w-full h-[350px] object-cover"
                     />
                 </div>
                 <div className="w-full ml:10 md:w-1/2 px-6 md:px-16 mr-0 flex flex-col justify-between">

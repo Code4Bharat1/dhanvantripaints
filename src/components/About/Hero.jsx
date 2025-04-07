@@ -39,7 +39,13 @@ export default function Hero() {
       <div className="flex flex-col gap-10 lg:gap-15 sm:gap-6 text-white absolute top-[42%] lg:top-[43%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] lg:max-w-[1000px] max-w-[700px] text-center px-6 sm:px-4">
         <h1 className="font-bold text-[30px] sm:text-5xl md:text-6xl">About Us</h1>
         <p className="text-[12px] lg:w-[700px] m-auto sm:text-base md:text-lg font-[400] lg:text-[15px]">
-          Our commitment goes beyond just painting walls—we focus on delivering durable, stylish, and innovative solutions tailored to your vision. Whether it's a residential makeover, commercial project, or custom digital printing, we ensure a flawless finish that stands the test of time.
+        Our commitment goes beyond just painting walls—we focus on 
+        delivering durable, stylish, and innovative solutions tailored to your vision. 
+        Whether it's a residential makeover, commercial project, or custom graphic printing, 
+        we ensure a flawless finish that stands the test of time. Since 16 years, we have been 
+        dedicated to excellence, proudly serving our clients. Located in Thane, we continue to 
+        bring creativity and precision to every project.
+
         </p>
       </div>
     </div>

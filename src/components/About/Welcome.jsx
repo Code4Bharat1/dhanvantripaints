@@ -17,16 +17,16 @@ const Welcome = () => {
 
 
         <div className='w-full sm:w-[60%] flex flex-col gap-6 mt-6 sm:mt-10'>
-          <p className='font-medium text-[22px]'>Welcome</p>
+          <p className='font-medium text-[22px]'>Greetings!</p>
           <h2 className='font-semibold text-2xl sm:text-4xl leading-snug'>
             Welcome to <span className='text-green-500'>Dhanvantri</span> Paints,
             Bringing Colors to Life with Precision & Excellence
           </h2>
           <p className='text-[14px] font-light leading-relaxed'>
-            At Dhannvantri Paints, we believe that colors have the power to transform spaces, evoke emotions, and create lasting impressions. With a commitment to quality and innovation, we offer premium painting solutions tailored to your style and needs.
+            At Dhanvantri Paints, we believe that colors have the power to transform spaces, evoke emotions, and create lasting impressions. With a commitment to quality and innovation, we offer premium painting solutions tailored to your style and needs.
             From residential makeovers to commercial projects, our skilled team ensures flawless execution, durability, and a stunning finish that enhances every space. Let us bring your vision to life with vibrant colors and expert craftsmanship.
           </p>
-          <p className="font-semibold text-[14px]">[RAJESH KUMAR SINGH] - CEO of Dhanvantri Paints</p>
+          <p className="font-semibold text-[14px]">[SANJAY GUPTA] - Founder of Dhanvantri Paints</p>
         </div>
 
         <div className='w-full sm:w-[40%] flex justify-center'>

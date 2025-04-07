@@ -12,7 +12,7 @@ const TransformYourPage = () => {
           Transform Your Space With Expert Painting Solutions
         </h2>
         <p className="text-sm sm:text-sm">
-        In 1981 I started my own company in the name of "Rai Enterprises" since then we are giving service with my expertise to different companies and societies in an around Thane and Mumbai. Our good work has a result and we are succeeded in making a good relation with our reputed customers. I have a force of different Technical and non technical expertise in our team. We have 150 workers to serve civil and painting work in a given time. Each work has a warranty period and assurance for stability of the work.
+        In 2010 I started my own company in the name of "Dhanvantri Paints" since then we are giving service with my expertise to different companies and societies in an around Thane and Mumbai. Our good work has a result and we are succeeded in making a good relation with our reputed customers. I have a force of different Technical and non technical expertise in our team. Each work has a warranty period and assurance for stability of the work.
           </p>
       </div>
     </div>

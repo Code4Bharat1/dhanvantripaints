@@ -10,7 +10,6 @@ const ContactForm = () => {
         <div className='relative flex flex-col gap-10 rounded-[10px] text-white bg-[#524BAD] h-[400px] lg:h-full p-6 lg:p-10 w-full md:w-[350px]'>
           <div className='absolute flex gap-4 bottom-[20px] left-[20px] text-xl'>
             <a href='#' className='hover:text-gray-300'><FaInstagram /></a>
-            <a href='#' className='hover:text-gray-300'><FaFacebook /></a>
             <a href='#' className='hover:text-gray-300'><FaLinkedin /></a>
             <a href='#' className='hover:text-gray-300'><FaWhatsapp /></a>
           </div>
@@ -29,14 +28,16 @@ const ContactForm = () => {
               <li className='flex gap-3 items-center'>
                 <FaPhoneAlt className='text-lg' />
                 <p>+91 9167055515</p>
+                
               </li>
+              <p className='ml-8'>+91 8976666148</p>
               <li className='flex gap-3 items-center'>
                 <FaEnvelope className='text-lg' />
                 <p>dhanvantripaints@gmail.com</p>
               </li>
               <li className='flex gap-3 items-center'>
-                <FaMapMarkerAlt className='text-lg' />
-                <p>Location SS Classes Nr Ganesh Mandir, Church Road, Manpada Thane West 40060</p>
+                <FaMapMarkerAlt className='text-4xl' />
+                <p>SS Classes Nr Ganesh Mandir, Church Road, Manpada Thane West 40060</p>
               </li>
             </ul>
           </div>

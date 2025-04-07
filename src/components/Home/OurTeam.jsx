@@ -33,10 +33,9 @@ const OurTeam = () => {
                         <Image className="h-[180px] lg:w-[250px] lg:h-[350px]" src="/Home/worker3.png" alt="" width={1000} height={1000} />
                     </div>
                     <div className=" h-[180px] md:w-1/2 bg-[#524BAD] flex flex-col justify-center items-center md:h-auto">
-                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">RAJESH</h1>
-                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">KUMAR</h1>
-                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">SINGH</h1>
-                        <p className="text-white text-[8px] md:text-[16px] md:mt-5 lg:text-xs text-left lg:p-0 p-5 md:p-5">CEO of Dhanvantri Paints</p>
+                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">SANJAY</h1>
+                        <h1 className="text-white text-xs md:text-3xl text-left lg:p-0 md:p-2">GUPTA</h1>
+                        <p className="text-white text-[8px] md:text-[16px] md:mt-5 lg:text-xs text-left lg:p-0 p-5 md:p-5">Founder of Dhanvantri Paints</p>
                     </div>
 
                 </div>
@@ -49,7 +48,7 @@ const OurTeam = () => {
             </div>
             <div className="flex justify-center ">
                 <div className=" w-full">
-                    <p className="lg:text-[13px] font-[400] text-[9px] mr-2 mt-8 md:text-[12px] md:p-1 lg:p-18 text-justify">Myself Rajesh Kumar Singh was worked under different builder. I was supervisor and supervised different Civil Work and Learnt the technique through practical work. I was involved in looking after the work from reading drawing then digging. RCC plinth, pillars. Columns, Iron gauge for weight and load, RCC structure Slab. Brick work, plaster work, painting work, plumbing work and at last interior work
+                    <p className="lg:text-[13px] font-[400] text-[9px] mr-2 mt-8 md:text-[12px] md:p-1 lg:p-18 text-justify">Myself Sanjay Kumar Singh was worked under different builder. I was supervisor and supervised different Civil Work and Learnt the technique through practical work. I was involved in looking after the work from reading drawing then digging. RCC plinth, pillars. Columns, Iron gauge for weight and load, RCC structure Slab. Brick work, plaster work, painting work, plumbing work and at last interior work
                     </p>
                 </div>
                 <div className="flex w-full">

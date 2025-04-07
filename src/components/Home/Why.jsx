@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col gap-4 max-w-[700px] mx-auto text-center">
                 <p className="text-[23px] font-[600]">{"Why?"}</p>
                 <p className="font-[600] text-[20px] md:text-[40px] sm:text-[37px]">
-                    Fast and Cheap High-Quality Digital Prints - Why Not?
+                    Fast and Cheap High-Quality Digital Print - Why Not?
                 </p>
             </div>
 
