@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import Painting_modal from "./painting_modal";
+
+
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-
+    const [isOpen, setIsOpen] = useState(false);
     // Auto-slide every 1 second
     useEffect(() => {
         const interval = setInterval(() => {
@@ -18,25 +20,28 @@ const Carousel = () => {
 
             {/* Left Side Content */}
             <div className="w-full flex flex-col gap-3 px-10 md:px-30 md:w-1/2 lg:p-10 lg:my-30 lg:mx-20 md:p-6 text-left">
-                <h1 className="text-[18px] md:text-3xl font-medium">Interior</h1>
+                
                 <h1 className="w-fit font-bold text-[18px] md:text-6xl bg-gradient-to-r from-purple-900 to-orange-600 text-transparent bg-clip-text">
                     Wall Paints
                 </h1>
                 <p className="text-[12px] md:text-[20px] leading-normal md:leading-relaxed text-justify">
-                    Explore a versatile range of interior paint for your home!
+                Explore a versatile range of paints to transform your home beautifully!
                 </p>
-                <Link
-            href="https://wa.me/9167055515"
-            target="_blank"
-            rel="noopener noreferrer"><button className="w-25 md:w-40 h-10 text-[13px] md:text-[18px] md:h-12 mt-2 md:mt-6 mb-10 md:mb-0 text-white bg-orange-400 hover:bg-orange-600 rounded-lg shadow-lg">
-            See Details
-        </button></Link>
+                
+                <button 
+                 onClick={() => setIsOpen(true)}
+                className="w-25 md:w-40 h-10 text-[13px] md:text-[18px] md:h-12 mt-2 md:mt-6 mb-10 md:mb-0 text-white bg-orange-400 hover:bg-orange-600 rounded-lg shadow-lg">
+                See Details
+            </button>
+              {/* Pass modal open state as props */}
+        <Painting_modal isOpen={isOpen} setIsOpen={setIsOpen} />
             </div>
+
             <Image src="/Home/logo1.png"
                 alt="/"
                 width={80}
                 height={65}
-                className='hidden sm:inline-flex absolute top-60 left-12 md:left-18 lg:left-125'
+                className='hidden sm:inline-flex absolute top-60 left-12 md:left-18 lg:left-155'
             />
             <Image src="/Home/logo5.png"
                 alt="/"

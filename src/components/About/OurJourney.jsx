@@ -16,7 +16,7 @@ const OurJourney = () => {
         <div className="flex flex-col gap-6 sm:gap-10 items-center">
           <Image src="/About/JourneyImage1.png" alt="2013 Journey" width={250} height={300} className="w-[180px] sm:w-[250px] h-auto"/>
           <div className="text-center">
-            <p className="font-bold text-2xl sm:text-3xl">2013</p>
+            <p className="font-bold text-2xl sm:text-3xl">2010</p>
             <p className="font-medium text-sm sm:text-lg">A Modest Start</p>
           </div>
         </div>

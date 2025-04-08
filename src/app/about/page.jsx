@@ -4,6 +4,7 @@ import Carousel from "@/components/About/Carousel";
 import ExceptionalQuality from "@/components/About/ExceptionalQuality";
 import GetSpecial from "@/components/About/GetSpecial";
 import Hero from "@/components/About/Hero";
+import Image_section from "@/components/About/project_section";
 import Logo from "@/components/About/Logo";
 import OurJourney from "@/components/About/OurJourney";
 import TransformYourPage from "@/components/About/TransformYourPage";
@@ -22,6 +23,7 @@ const Page = () => {
       <Welcome/>
       <Logo/>
       <OurJourney/>
+      <Image_section/>
       <GetSpecial/>
       <Carousel/>
       <Footer/>

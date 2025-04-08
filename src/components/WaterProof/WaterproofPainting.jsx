@@ -4,23 +4,41 @@ const WaterproofPainting = () => {
   return (
    <div className="px-6 md:px-11 py-6 flex flex-col items-center mt-5 ">
          {/* Responsive Image Layout */}
-         <div className=" max-w-7xl relative bg-cover bg-center flex justify-center mx-auto lg:mt-12">
-           <Image
-             src="/WaterProofPainting/waterproof_web.png"
-             alt="image"
-             className="hidden md:block max-w-7xl sm:w-[100%] md:w-[100%] h-auto max-h-[445px] object-contain md:px-5"
-             width={5000}
-             height={445}
-           />
-           {/*Image to be displayed on mobile*/}
-           <Image
-             src="/WaterProofPainting/waterproof_mobile.png"
-             alt="Paint image on mobile phone"
-             width={900}
-             height={600}
-             className="block md:hidden px-1 w-xl h-auto object-contain"
-           />
-         </div>
+        <div className="md:flex-row flex-col gap-7 md:gap-7 max-w-7xl relative bg-cover bg-center flex justify-center mx-auto lg:mt-12">
+                <div>
+                 <Image
+                 src="/images/waterproof.jpeg"
+                 alt="internal 1"
+                 height={500}
+                 width={500}
+                 className="md:w-xl md:h-[370px] h-[200px]"
+                 />
+                </div>
+        
+                <div>
+                
+                 <Image
+                 src="/images/waterproof1.jpeg"
+                 alt="internal 2"
+                 height={500}
+                 width={350}
+                 className="md:h-[370px] h-[200px]"
+                 />
+        
+                 
+                </div>
+        
+                
+                <div>
+                  <Image
+                 src="/images/waterproof2.jpeg"
+                 alt="internal 3"
+                 height={700}
+                 width={500}
+                 className="md:w-xl md:h-[370px] h-[200px]"
+                 />
+                </div>
+            </div>
    
          {/* Text & Details Section */}
          <div className="px-1 md:mt-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-start gap-5 md:py-2 md:px-6">

@@ -48,7 +48,7 @@ const OurTeam = () => {
             </div>
             <div className="flex justify-center ">
                 <div className=" w-full">
-                    <p className="lg:text-[13px] font-[400] text-[9px] mr-2 mt-8 md:text-[12px] md:p-1 lg:p-18 text-justify">Myself Sanjay Kumar Singh was worked under different builder. I was supervisor and supervised different Civil Work and Learnt the technique through practical work. I was involved in looking after the work from reading drawing then digging. RCC plinth, pillars. Columns, Iron gauge for weight and load, RCC structure Slab. Brick work, plaster work, painting work, plumbing work and at last interior work
+                    <p className="lg:text-[13px] font-[400] text-[9px] mr-2 mt-8 md:text-[12px] md:p-1 lg:p-18 text-justify">Myself Sanjay Gupta was worked under different builder. I was supervisor and supervised different Civil Work and Learnt the technique through practical work. I was involved in looking after the work from reading drawing then digging. RCC plinth, pillars. Columns, Iron gauge for weight and load, RCC structure Slab. Brick work, plaster work, painting work, plumbing work and at last interior work
                     </p>
                 </div>
                 <div className="flex w-full">

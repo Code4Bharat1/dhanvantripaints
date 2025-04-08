@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 export default function Services_provided() {
   return (
-    <div className="md:mb-15 px-4 md:mt-15 mt-6">
+    <div className="md:mb-15px-4 md:mt-15 mt-6">
       {/* Title */}
       <h1 className="text-2xl text-black md:text-4xl md:text-bold text-center font-semibold">Services Provided</h1>
 
       {/* Services Grid */}
-      <div className="mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 justify-center text-center">
+      <div className="justify-center md:px-10 md:justify-center mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0   text-center">
 
         {/* Painting */}
         <div className="flex flex-col items-center">
@@ -27,12 +27,7 @@ export default function Services_provided() {
           <p className="mt-4 text-black font-semibold">Water Proofing</p>
         </div>
 
-        {/* Document Lamination */}
-        <div className="flex flex-col items-center">
-          <Image src="/images/graphic design_print.png" alt="Document Lamination" width={100} height={100} />
-          <p className="mt-4 text-black font-semibold">Document</p>
-          <p className="text-black font-semibold">Lamination</p>
-        </div>
+      
 
       </div>
 

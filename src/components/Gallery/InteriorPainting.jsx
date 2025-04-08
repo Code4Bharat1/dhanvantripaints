@@ -4,7 +4,7 @@ const InteriorPainting = () => {
   return (
     <div className="flex flex-col max-w-fit m-auto items-start my-10 w-full gap-4">
       {/* Title Positioned Left */}
-      <div className="text-[20px] md:text-[26px] px-4 md:px-0 font-bold whitespace-nowrap">
+    <div className="text-[20px] md:text-[26px] px-4 md:px-0 font-bold whitespace-nowrap">
         Interior Painting
       </div>
 
