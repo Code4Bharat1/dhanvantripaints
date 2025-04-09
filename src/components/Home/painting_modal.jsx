@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 export default function Painting_modal({ isOpen, setIsOpen }) {
   const initialImages = [
-    { src: "/images/external_image_edited.jpeg", alt: "Paint 1",className: "w-[120px] h-[120px]" },
-    { src: "/images/external2.jpeg", alt: "Paint 2",className: "w-[120px] h-[120px]" },
-    { src: "/images/modal1.jpeg", alt: "Paint 3",className: "w-[120px] h-[120px]" },
-    { src: "/images/modal2.jpeg", alt: "Paint 4" ,className: "w-[120px] h-[120px]"},
-    { src: "/images/modal3.jpeg", alt: "Paint 4" ,className: "w-[200px] h-[120px]"},
-    { src: "/images/repair2.jpeg", alt: "Paint 4" ,className: "w-[120px] h-[120px]"},
+    { src: "/images/external_image_edited.jpeg", alt: "Paint 1",className: "w-[500px] md:h-[200px] h-[100px]" },
+    { src: "/images/external2.jpeg", alt: "Paint 2",className: "w-[500px] md:h-[200px] h-[100px]" },
+    { src: "/images/modal1.jpeg", alt: "Paint 3",className: "w-[500px] md:h-[200px] h-[100px]" },
+    { src: "/images/modal2.jpeg", alt: "Paint 4" ,className: "w-[500px] md:h-[200px] h-[100px]"},
+    { src: "/images/modal3.jpeg", alt: "Paint 4" ,className: "w-[500px] md:h-[200px] h-[100px]"},
+    { src: "/images/repair2.jpeg", alt: "Paint 4" ,className: "w-[500px] md:h-[200px] h-[100px]"},
   ];
 
   const [shuffledImages, setShuffledImages] = useState(initialImages);
@@ -39,7 +39,7 @@ export default function Painting_modal({ isOpen, setIsOpen }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50 backdrop-blur-sm">
-      <div className="bg-white rounded-lg p-4 w-[90%] max-w-3xl shadow-2xl relative">
+      <div className="bg-white rounded-lg p-4 w-[90%] max-w-3xl shadow-2xl relative md:h-[610px] overflow-y-auto">
         <button
           onClick={() => setIsOpen(false)}
           className="absolute top-2 right-3 text-gray-500 hover:text-red-500 text-xl font-bold"
@@ -60,7 +60,7 @@ export default function Painting_modal({ isOpen, setIsOpen }) {
               key={img.src}
               src={img.src}
               alt={img.alt}
-              className="rounded-md md:h-[200px] h-[110px]"
+              className={`rounded-md object-cover ${img.className}`}
               layout
               transition={{ type: "spring", stiffness: 80, damping: 20 }}
             />

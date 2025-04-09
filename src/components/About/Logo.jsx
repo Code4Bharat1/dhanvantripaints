@@ -7,12 +7,12 @@ const Logo = () => {
   return (
     <div className='overflow-hidden w-full my-20'>
       <motion.div 
-        className='flex justify-between sm:gap-15 gap-15 h-fit w-max lg:px-10 lg:m-auto lg:my-25'
+        className='flex h-fit w-max gap-10 lg:px-10 lg:mx-auto'
         animate={{ x: ['0%', '-100%'] }}
         transition={{ repeat: Infinity, duration: 150, ease: 'linear' }}
       >
         {[...Array(10)].map((_, index) => (
-          <div key={index} className='flex mt-22 gap-15 lg:gap-30'>
+          <div key={index} className='flex items-center gap-10 lg:gap-20 my-25'>
             <Image className='w-[60px] h-[30px] lg:w-[200px] lg:h-[80px]' src='/About/logo-1.png' alt='Logo 1' width={100} height={80} />
             <Image className='w-[60px] h-[40px] lg:w-[200px] lg:h-[80px]' src='/About/logo-2.png' alt='Logo 2' width={100} height={80} />
             <Image className='w-[60px] h-[40px] lg:w-[200px] lg:h-[80px]' src='/About/logo-3.png' alt='Logo 3' width={100} height={80} />

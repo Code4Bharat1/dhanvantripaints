@@ -13,13 +13,13 @@ const HomeGallery = () => {
             <div className="w-full md:w-[1000px] flex flex-col gap-4">
 
                 {/* ✅ Desktop View - Grid Layout */}
-                <div className="hidden md:flex flex-col gap-4">
-                    <div className="flex gap-4">
+                <div className="hidden md:flex flex-col gap-4 px-4">
+                    <div className="flex gap-4 justify-center">
                         <Image src="/Home/works1.png" alt="Interior 1" width={300} height={400} className="w-[300px] h-auto object-cover" />
                         <Image src="/Home/works2.png" alt="Interior 2" width={300} height={400} className="w-[300px] h-auto object-cover" />
                         <Image src="/Home/works3.png" alt="Interior 3" width={300} height={400} className="w-[300px] h-auto object-cover" />
                     </div>
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 justify-center">
                         <Image src="/Home/works4.png" alt="Interior 4" width={300} height={400} className="w-[300px] h-auto object-cover z-[1]" />
                         <Image src="/Home/works5.png" alt="Interior 5" width={300} height={400} className="w-[300px] h-auto object-cover" />
                         <Image src="/Home/works6.png" alt="Interior 6" width={300} height={400} className="w-[300px] h-auto object-cover z-[1]" />
@@ -40,7 +40,7 @@ const HomeGallery = () => {
                 
 
                 {/* ✅ Mobile View - Horizontal Scroll */}
-                <div className="block md:hidden w-full overflow-x-auto whitespace-nowrap scrollbar-hide px-4">
+                <div className="block md:hidden w-full overflow-x-auto px-4 hide-scrollbar">
                     <div className="flex gap-4">
                         <Image src="/Home/works1.png" alt="Interior 1" width={250} height={200} className="w-[250px] h-auto object-cover" />
                         <Image src="/Home/works2.png" alt="Interior 2" width={250} height={200} className="w-[250px] h-auto object-cover" />
