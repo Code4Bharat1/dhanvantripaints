@@ -9,9 +9,9 @@ const Carousel = () => {
   let isDragging = false;
 
   const testimonials = [
-    { image: '/About/carousel-1.png', text: 'We truly appreciate the exceptional services provided by the consultants from Dhanvantri Paints. From the initial consultation to the final coat of paint, every step of our painting project was handled with great professionalism and attention to detail. The team of specialists coordinated the entire process seamlessly...', author: 'Nikita Shah – Residential Customer' },
-    { image: '/About/carousel-1.png', text: 'The painting project carried out by the skilled professionals of Dhanvantri Paints at my home was nothing short of excellent. Right from the initial assessment to the final finishing touches, every phase was handled with utmost care and precision. The painters demonstrated a high level of expertise...', author: 'Anjali Deshmukh – Home Interior Client' },
-    { image: '/About/carousel-1.png', text: 'The level of professionalism and commitment demonstrated by Dhanvantri Paints throughout the entire process has been truly commendable. From the very first interaction, their team showcased a deep understanding of customer needs and maintained consistent communication, making...', author: 'Vikram Reddy – House Owner' },
+    { image: '/About/carousel-1.png', text: 'We truly appreciate the exceptional services provided by the consultants from Dhanvantri Paints. From the initial consultation to the final coat of paint, every step of our painting project was handled with great professionalism and attention to detail. The team of specialists coordinated the entire process seamlessly...', author: 'Mr. Pravin Kadam – Dhokali Thane West' },
+    { image: '/About/carousel-1.png', text: 'The painting project carried out by the skilled professionals of Dhanvantri Paints at my home was nothing short of excellent. Right from the initial assessment to the final finishing touches, every phase was handled with utmost care and precision. The painters demonstrated a high level of ...', author: 'Milind Sir – G.B road Thane West' },
+    { image: '/About/carousel-1.png', text: 'The level of professionalism and commitment demonstrated by Dhanvantri Paints throughout the entire process has been truly commendable. From the very first interaction, their team showcased a deep understanding of customer needs and maintained consistent communication.The team of specialists coordinated the entire process seamlessly w...', author: 'Vikram Reddy – House Owner' },
     { image: '/About/carousel-1.png', text: 'The dedication and professionalism displayed by Dhanvantri Paints truly exceeded my expectations. Their unwavering commitment to delivering high-quality service and ensuring complete customer satisfaction is admirable. What impressed me most was their attention to detail, efficient execution...', author: 'Aditya Jain – Customer, Navi Mumbai' },
     { image: '/About/carousel-1.png', text: 'I am genuinely pleased with the overall experience I had with Dhanvantri Paints. The entire painting project was handled with remarkable professionalism and efficiency. What truly stood out to me was their commitment to timelines — the project was completed right on schedule, without any unnecessary delays...', author: 'Neha Bansal – Customer, Pune' },
   ];
@@ -62,11 +62,12 @@ const Carousel = () => {
         <div className='lg:w-120 w-40 px-5 lg:p-20 lg:mx-10 pt-30 lg:pt-30'>
             <h2 className='font-[510] text-2xl lg:text-7xl leading-10 lg:leading-23'></h2>
         </div>
-        <div className='absolute top-0 right-0 w-full h-fit flex flex-col items-center justify-center p-10'>
+    <div className='absolute top-0 right-0 w-full h-fit flex flex-col items-center justify-center p-10'>
 
         
       {/* Slider Container */}
       <div className='lg:w-full w-[1000px] overflow-auto transparent-scrollbar' ref={carouselRef} onMouseDown={handleMouseDown} onMouseUp={handleMouseUp}>
+        
         <div className='flex transition-transform duration-500' style={{ transform: `translateX(-${currentIndex * 33.33}%)` }}>
           
           {/* Empty Transparent Card */}
@@ -76,14 +77,14 @@ const Carousel = () => {
               
             </div>
           </div>
-
+            
           {/* Testimonial Cards */}
           {testimonials.map((testimonial, index) => (
             <div key={index} className='lg:w-1/3 w-[320px] p-2 flex-shrink-0'>
-              <div className=' bg-white shadow-sm rounded-[5px] overflow-hidden text-left max-w-full mx-auto h-fit flex flex-col justify-between'>
+              <div className=' bg-white h-[450px]  shadow-sm rounded-[5px] overflow-hidden text-left max-w-full mx-auto flex flex-col justify-between'>
                 <Image src={testimonial.image} alt='Building' width={1250} height={1200} className='w-full mx-auto' />
-                <p className='text-gray-600 mt-2 p-2 text-sm'>{testimonial.text}</p>
-                <p className='font-semibold mt-2 p-2 text-1xl'>{testimonial.author}</p>
+                <p className='text-gray-600 p-2 text-sm'>{testimonial.text}</p>
+                <p className='font-normal p-2 text-1xl'>{testimonial.author}</p>
               </div>
             </div>
           ))}

@@ -6,8 +6,9 @@ import Hero from "@/components/hero/hero";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import RepairPainting from "@/components/Repairing/RepairPainting";
-import Services from "@/components/Society/Services";
+import Services_provided from "@/components/services_provided/services_provided";
 import OneStop from "@/components/WaterProof/OneStop";
+
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
         <Navbar/>
         <Hero/>
         <RepairPainting/>
-        <Services/>
+        <Services_provided/>
         <OneStop/>
         <GetSpecial/>
         <Carousel/>

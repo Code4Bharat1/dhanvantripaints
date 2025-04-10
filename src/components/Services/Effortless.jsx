@@ -4,7 +4,7 @@ export default function Effortless() {
     return (
         <div className='w-[100%]'>
             {/* Heading Below Image */}
-            <div className="flex justify-center items-center p-4 mt-20 mb-20 md:mt-20 md:mb-20">
+            <div className="flex justify-center items-center p-4 mt-13 mb-13 md:mt-20 md:mb-20">
                 <h1 className="text-[22px] leading:20 sm:text-6xl md:text-4xl font-semibold w-full max-w-[90%] sm:max-w-2xl text-center">
                     Effortless And Quick Painting Solutions With Dhannvantri Paint Services.
                 </h1>

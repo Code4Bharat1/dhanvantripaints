@@ -19,7 +19,7 @@ const Carousel = () => {
         <div className="relative w-full h-150 overflow-hidden flex flex-col  lg:flex-row items-center lg:items-start">
 
             {/* Left Side Content */}
-            <div className="w-full flex flex-col gap-3 px-10 md:px-30 md:w-1/2 lg:p-10 lg:my-30 lg:mx-20 md:p-6 text-left">
+            <div className="w-full flex flex-col gap-3 px-10 md:px-30 md:w-1/2 lg:p-10 lg:mt-30 lg:mx-20 md:p-6 text-left">
                 
                 <h1 className="w-fit font-bold text-[18px] md:text-6xl bg-gradient-to-r from-purple-900 to-orange-600 text-transparent bg-clip-text">
                     Wall Paints

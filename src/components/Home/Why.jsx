@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const WhyChooseUs = () => {
     return (
-        <div className="max-w-[1200px] mx-auto my-[100px] h-fit px-4">
+        <div className="max-w-[1200px] mx-auto md:my-[100px] h-fit px-4">
             {/* Heading */}
             <div className="flex flex-col gap-4 max-w-[700px] mx-auto text-center">
                 <p className="text-[23px] font-[600]">{"Why?"}</p>
@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col sm:flex-row justify-center text-center gap-7 mt-10">
                 {/* Card 1 - Modern Technology */}
                 <div className="flex-1">
-                    <div className="md:border-r-2 border-gray-400 flex flex-col gap-4 p-10">
+                    <div className="md:border-r-2 border-gray-400 flex flex-col gap-4 p-8">
                         <div className="w-full">
                             <Image 
                                 className="mx-auto" 
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
 
                 {/* Card 2 - Speed And Accuracy */}
                 <div className="flex-1">
-                    <div className="md:border-r-2 border-gray-400 flex flex-col gap-4 p-10">
+                    <div className="md:border-r-2 border-gray-400 flex flex-col gap-4 p-8">
                         <div className="w-full">
                             <Image 
                                 className="mx-auto" 
@@ -53,7 +53,7 @@ const WhyChooseUs = () => {
 
                 {/* Card 3 - Professional Team */}
                 <div className="flex-1">
-                    <div className="flex flex-col gap-4 p-10">
+                    <div className="flex flex-col gap-4 p-8">
                         <div className="w-full">
                             <Image 
                                 className="mx-auto" 

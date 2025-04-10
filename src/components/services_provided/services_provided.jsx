@@ -7,7 +7,7 @@ export default function Services_provided() {
       <h1 className="text-2xl text-black md:text-4xl md:text-bold text-center font-semibold">Services Provided</h1>
 
       {/* Services Grid */}
-      <div className="justify-center md:px-10 md:justify-center mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0   text-center">
+      <div className="justify-center md:px-25 md:justify-center mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-0 gap-20 text-center">
 
         {/* Painting */}
         <div className="flex flex-col items-center">

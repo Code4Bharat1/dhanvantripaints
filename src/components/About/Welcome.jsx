@@ -6,7 +6,7 @@ const Welcome = () => {
       <div className="lg:block hidden z-[-1] absolute top-[5%] left-[1%]">
         <Image src="/About/circle3.png" alt="" width={40} height={40} />
       </div>
-      <div className='relative flex flex-col-reverse sm:flex-row justify-center items-center gap-10 sm:gap-20 max-w-[1000px] mx-auto my-10 px-4'>
+      <div className='relative flex flex-col-reverse sm:flex-row justify-center items-center gap-10 sm:gap-20 max-w-[1000px] mx-auto md:mt-10 px-4'>
 
         <div className="lg:block hidden z-[-1] absolute top-[5%] left-[40%]">
           <Image src="/About/triangle.png" alt="" width={40} height={40} />
@@ -16,7 +16,7 @@ const Welcome = () => {
         </div>
 
 
-        <div className='w-full sm:w-[60%] flex flex-col gap-6 mt-6 sm:mt-10'>
+        <div className='w-full sm:w-[60%] flex flex-col gap-6 mt-6 sm:mt-6'>
           <p className='font-medium text-[22px]'>Greetings!</p>
           <h2 className='font-semibold text-2xl sm:text-4xl leading-snug'>
             Welcome to <span className='text-green-500'>Dhanvantri</span> Paints,
